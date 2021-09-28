@@ -100,6 +100,18 @@ td{
 
 }
 
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
+tr:nth-child(odd){
+  background-color: transparent;
+}
+
+tbody tr:hover{
+  background-color: rgba(126, 8, 37, 0.25);
+}
+
 
 table{
     border: 5px #000000 solid;
